@@ -1,0 +1,123 @@
+body {
+  margin:0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #E0E8FF;
+  text-align: center;
+}
+
+.background-pic {
+  position: relative;
+  margin-left: 0;
+  width: 100%;
+}
+
+
+.container {
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+  margin: 5% auto auto auto;
+  width: 30%;
+  height: 90%;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  padding-bottom: 240px;
+
+}
+
+.hero {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.title {
+  font-size: 1.7rem;
+  position: relative;
+  margin: 0 auto 0 auto;
+  padding-top: 30px;
+
+}
+
+.subtitle {
+  position: relative;
+  margin: 0 auto 0 auto;
+  width: 70%;
+  padding-top: 30px
+}
+
+.plan-box {
+  position: relative;
+  margin: 20px auto 0 auto;
+  background-color: #F5F7FF;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.icon {
+  display: inline-block;
+  margin: 5% 0 5% 0;
+  position: relative;
+  left: -110px;
+  top: 5px;
+
+}
+
+.Annual {
+  display: inline-block;
+  font-size: 1rem;
+  position: absolute;
+  left: 100px;
+  bottom: 30px
+
+}
+
+.price {
+  display: inline-block;
+  font-size: 1rem;
+  position: absolute;
+  left: 100px;
+  bottom: 0
+
+}
+
+.change {
+  display: inline-block;
+  font-size: 1rem;
+  position: absolute;
+  right: 20px;
+  bottom: 30px
+}
+
+.proceed-btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 12px 30px #b8b8b8;
+  -moz-box-shadow: 0 12px 30px #b8b8b8;
+  box-shadow: 0 12px 30px #b8b8b8;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3829E0;
+  padding: 15px 100px 15px 100px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+}
+
+.proceed-btn:hover {
+  background: #1F2F56;
+  text-decoration: none;
+}
+
+.cancel-btn {
+
+  position: absolute;
+  left: 170px;
+  top: 570px;
+}
